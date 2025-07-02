@@ -17,6 +17,10 @@ extensions = [
     "myst_parser",
 ]
 
+myst_enable_extensions = [
+    "attrs_inline"
+]
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
@@ -30,5 +34,5 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 html_static_path = ['_static']
