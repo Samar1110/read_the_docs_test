@@ -6,38 +6,28 @@ Este método de creación de frases semilla permite generar una frase semilla cr
 
 1. **Navegar**: Menú principal → **Herramientas** → **Calc. 12ª/24ª Palabra**
 
-<div align="center">
-     <img src="images/ToolsOptionSelectView.png" alt="Selección del menú Herramientas" width="250"/>
-</div>
-<div align="center">
-<img src="images/SeedGenerateCalcMethodView.png" alt="Selección del método de dados" width="250"/>
-</div>
+![Selección del menú Herramientas](images/ToolsOptionSelectView_sm_cn_es.png){w=250px align=center}
+
+![Selección del método de dados](images/SeedGenerateCalcMethodView_sm_cn_es.png){w=250px align=center}
 
 2. **Elegir longitud**: Seleccionar **12 palabras** o **24 palabras**
 
-<div align="center">
-     <img src="images/SeedMnemonicLengthCalcView.png" alt="Longitud inicial para el cálculo de la palabra final" width="250"/>
-</div>
+![Longitud inicial para el cálculo de la palabra final](images/SeedMnemonicLengthCalcView_sm_cn_es.png){w=250px align=center}
 
 3. **Ingresar palabras existentes**: Usar el teclado en pantalla Con sugerencias de palabras inteligentes:
-- **Tecla A**: Subir en la lista de sugerencias
-- **Tecla C**: Bajar en la lista de sugerencias
-- **Tecla B**: Seleccionar la palabra sugerida resaltada
+     - **Tecla A**: Subir en la lista de sugerencias
+     - **Tecla C**: Bajar en la lista de sugerencias
+     - **Tecla B**: Seleccionar la palabra sugerida resaltada
 
-<div align="center">
-     <img src="images/WordEntry.png" alt="Teclado en pantalla con sugerencias de palabras" width="250"/>
-</div>
+![Teclado en pantalla con sugerencias de palabras](images/WordEntry_sm_cn_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordEnterSeedView.png" alt="Introducción de palabras semilla existentes" width="250"/>
-</div>
+![Introducción de palabras semilla existentes](images/ToolsCalcFinalWordEnterSeedView_sm_cn_es.png){w=250px align=center}
 
 ## Métodos de entropía para calcular la palabra final
 
 El sistema proporciona tres fuentes de entropía diferentes para calcular la palabra final, lo que garantiza la seguridad criptográfica:
-<div align="center">
-     <img src="images/ToolsCalcFinalWordFinalizePromptView.png" alt="Palabra semilla final" width="250"/>
-</div>
+
+![Palabra semilla final](images/ToolsCalcFinalWordFinalizePromptView_sm_cn_es.png){w=250px align=center}
 
 **🪙 Método de Entropía al Lanzamiento de Moneda**
 
@@ -45,36 +35,26 @@ El sistema proporciona tres fuentes de entropía diferentes para calcular la pal
 - En cada lanzamiento, selecciona **1 para Cara** o **0 para Cruz** presionando el **Joystick**.
 - Este método proporciona 7 bits de entropía para calcular la palabra final.
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordCoinFlipsView.png" alt="Interfaz de Entropía al Lanzamiento de Moneda" width="250"/>
-</div>
+![Interfaz de Entropía al Lanzamiento de Moneda](images/ToolsCalcFinalWordCoinFlipsView_sm_cn_es.png){w=250px align=center}
 
 - El sistema muestra la cadena binaria y calcula la suma de comprobación.
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordCoinFlipResultView.png" alt="Vista del resultado del lanzamiento de moneda" width="250"/>
-</div>
+![Vista del resultado del lanzamiento de moneda](images/ToolsCalcFinalWordCoinFlipResultView_sm_cn_es.png){w=250px align=center}
 
 **📝 Método de entropía por selección de palabras**
 
 - Elija cualquier palabra de la lista de palabras BIP39 como su entropía. Fuente
 - La palabra seleccionada proporciona los bits de entropía necesarios para el cálculo de la palabra final.
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordEntropyView.png" alt="Método de entropía por selección de palabras" width="250"/>
-</div>
+![Método de entropía por selección de palabras](images/ToolsCalcFinalWordEntropyView_sm_cn_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordEntropyResultView.png" alt="Método de entropía por selección de palabras" width="250"/>
-</div>
+![Método de entropía por selección de palabras](images/ToolsCalcFinalWordEntropyResultView_sm_cn_es.png){w=250px align=center}
 
 **🔢 Método de terminación en cero**
 
 - Utiliza una cadena simple de ceros de 7 bits más la suma de comprobación de 4 bits calculada. - Este es el método más simple, pero aun así produce una palabra final válida.
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordZerosMethodView.png" alt="Selección del método de ceros" width="250"/>
-</div>
+![Selección del método de ceros](images/ToolsCalcFinalWordZerosMethodView_sm_cn_es.png){w=250px align=center}
 
 ## Visualización y finalización de la palabra final
 
@@ -83,17 +63,13 @@ El sistema proporciona tres fuentes de entropía diferentes para calcular la pal
 - Muestra la palabra final calculada con todos los detalles de su derivación.
 - Muestra la fuente de entropía utilizada y el cálculo de la suma de comprobación.
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordShowFinalWordView.png" alt="Pantalla de cálculo de la palabra final" width="250"/>
-</div>
+![Pantalla de cálculo de la palabra final](images/ToolsCalcFinalWordShowFinalWordView_sm_cn_es.png){w=250px align=center}
 
 **Pantalla de finalización**
 
 - Revisa la frase inicial completada con la palabra final calculada.
 - Tu frase inicial ya está lista para ser respaldada y utilizada.
 
-<div align="center">
-     <img src="images/ToolsCalcFinalWordDoneView.png" alt="Cálculo de finalización de la palabra final" width="250"/>
-</div>
+![Cálculo de finalización de la palabra final](images/ToolsCalcFinalWordDoneView_sm_cn_es.png){w=250px align=center}
 
 > **📚 Nota técnica**: La palabra final de cualquier semilla BIP39 contiene bits de entropía y bits de suma de comprobación. La suma de comprobación garantiza la validez matemática de la frase inicial y ayuda a detectar errores de transcripción.

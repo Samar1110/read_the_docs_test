@@ -12,18 +12,10 @@ Define which Bitcoin script types are supported on the device.
    - **Taproot** - P2TR addresses (default enabled)
    - **Custom Derivation** - Custom derivation paths
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ScriptTypeSelectView.png" alt="Script type selection menu" width="250"/>
-</div>
+![Script type selection menu](images/ScriptTypeSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_script_types.png" alt="Script types configuration" width="250"/>
-</div>
+![Script types configuration](images/SettingsEntryUpdateSelectionView_script_types_dc_as_en.png){w=250px align=center}

@@ -10,18 +10,10 @@ Control how the device handles BIP-39 passphrases.
    - **Disabled** - No passphrase support at all
    - **Required** - Every seed must have a passphrase
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/BIP-39PassphraseSelectView.png" alt="BIP-39 passphrase selection menu" width="250"/>
-</div>
+![BIP-39 passphrase selection menu](images/BIP-39PassphraseSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_passphrase.png" alt="Passphrase configuration options" width="250"/>
-</div>
+![Passphrase configuration options](images/SettingsEntryUpdateSelectionView_passphrase_dc_as_en.png){w=250px align=center}

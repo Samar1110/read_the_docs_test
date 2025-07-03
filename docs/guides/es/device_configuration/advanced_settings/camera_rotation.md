@@ -11,18 +11,10 @@ Ajusta la orientación de la cámara según la configuración de tu dispositivo.
      - **180 grados** - Invertido (predeterminado en la mayoría de las configuraciones)
      - **270 grados** - Giro de un cuarto en sentido antihorario
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzada" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/CameraRotationSelectView.png" alt="Menú de selección de rotación de la cámara" width="250"/>
-</div>
+![Menú de selección de rotación de la cámara](images/CameraRotationSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_camera_rotation.png" alt="Configuración de rotación de la cámara" width="250"/>
-</div>
+![Configuración de rotación de la cámara](images/SettingsEntryUpdateSelectionView_camera_rotation_dc_as_es.png){w=250px align=center}

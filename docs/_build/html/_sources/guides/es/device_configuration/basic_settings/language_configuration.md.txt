@@ -8,14 +8,8 @@ Configure su idioma preferido para la interfaz de SeedSigner.
 2. **Seleccionar idioma**: Elige tu idioma preferido entre las opciones disponibles
 3. **Confirmar selección**: La interfaz se actualizará para usar el idioma seleccionado
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_bs_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuLanguageSelectView.png" alt="Menú de selección de idioma" width="250"/>
-</div>
+![Menú de selección de idioma](images/SettingsMainMenuLanguageSelectView_dc_bs_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/LocaleSelectionView.png" alt="Menú de selección de idioma específico" width="250"/>
-</div>
+![Menú de selección de idioma específico](images/LocaleSelectionView_dc_bs_es.png){w=250px align=center}

@@ -9,18 +9,10 @@ Control whether extended public key details are displayed.
    - **Enabled** - Show detailed xpub information (default)
    - **Disabled** - Hide xpub details
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowXpubDetailsSelectView.png" alt="Show Xpub details selection menu" width="250"/>
-</div>
+![Show Xpub details selection menu](images/ShowXpubDetailsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_show_xpub.png" alt="Xpub details display setting" width="250"/>
-</div>
+![Xpub details display setting](images/SettingsEntryUpdateSelectionView_show_xpub_dc_as_en.png){w=250px align=center}

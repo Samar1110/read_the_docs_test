@@ -12,14 +12,8 @@ Enable or disable support for specific wallet applications. This customizes QR c
    - ✅ **Specter Desktop** - Privacy-focused wallet
    - ✅ **Keeper** - Inheritance planning wallet
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuCoordinatorSoftwareSelectView.png" alt="Coordinate selection menu" width="250"/>
-</div>
+![Coordinate selection menu](images/SettingsMainMenuCoordinatorSoftwareSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_coordinators.png" alt="Wallet software compatibility settings" width="250"/>
-</div>
+![Wallet software compatibility settings](images/SettingsEntryUpdateSelectionView_coordinators_dc_bs_en.png){w=250px align=center}

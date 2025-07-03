@@ -9,18 +9,10 @@ Configure display of critical security warnings.
    - **Enabled** - Show critical warnings (default)
    - **Disabled** - Hide dire warnings
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowDireWarningsSelectView.png" alt="Show dire warnings selection menu" width="250"/>
-</div>
+![Show dire warnings selection menu](images/ShowDireWarningsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_dire_warnings.png" alt="Dire warnings configuration" width="250"/>
-</div>
+![Dire warnings configuration](images/SettingsEntryUpdateSelectionView_dire_warnings_dc_as_en.png){w=250px align=center}

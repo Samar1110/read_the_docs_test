@@ -1,8 +1,6 @@
 # SeedSigner User Guide
 
-<div align="center">
-  <img src="images/SeedSigner_Logo.png" alt="SeedSigner Logo" width="400"/>
-</div>
+![SeedSigner Logo](images/SeedSigner_Logo.png){w=400px align=center}
 
 SeedSigner is an air-gapped, open-source Bitcoin signing device that helps you manage seed phrases and sign transactions securely. This guide provides step-by-step instructions organized by common workflows.
 
@@ -92,9 +90,7 @@ A SeedSigner device consists of:
 
 ### WaveShare LCD Hat Controls
 
-<div align="center">
-  <img src="images/WaveShare_LCD_Hat.png" alt="WaveShare LCD Hat" width="350"/>
-</div>
+![WaveShare LCD Hat](images/WaveShare_LCD_Hat.png){w=350px align=center}
 
 The WaveShare LCD Hat provides the following controls:
 

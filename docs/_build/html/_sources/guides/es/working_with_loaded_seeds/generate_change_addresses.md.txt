@@ -4,42 +4,31 @@ Ver las direcciones utilizadas para la devolución de cambios de transacciones
 
 ## Proceso paso a paso con capturas de pantalla
 
-**Ruta de navegación**: Inicio → Semillas → [Seleccionar semilla] → Ver Direccions`
-<div align="center">
-     <img src="images/SeedOptionSelectView.png" alt="Flujo de navegación de Seeds" width="250"/>
-</div>
-<div align="center">
-     <img src="images/SavedSeedSelectView.png" alt="Selección de formato de dirección" width="250"/>
-</div>
-<div align="center">
-     <img src="images/AddressExplorerSelectView.png" alt="Selección de formato de dirección" width="250"/>
-</div>
+**Ruta de navegación**: `Inicio → Semillas → [Seleccionar semilla] → Ver Direccions`
+
+![Flujo de navegación de Seeds](images/SeedOptionSelectView_wl_es.png){w=250px align=center}
+
+![Selección de formato de dirección](images/SavedSeedSelectView_wl_es.png){w=250px align=center}
+
+![Selección de formato de dirección](images/AddressExplorerSelectView_wl_es.png){w=250px align=center}
 
 **Flujo del proceso**:
 
 1. **Selección del tipo de script** → Elija su dirección preferida Formato
 
-<div align="center">
-     <img src="images/ScriptTypeOptions.png" alt="Selección de formato de dirección" width="250"/>
-</div>
+![Selección de formato de dirección](images/ScriptTypeOptions_wl_es.png){w=250px align=center}
 
 2. **Acceso a cambios** → Seleccione "Cambiar dirección" en lugar de recibir
 
-<div align="center">
-     <img src="images/ChangeAddressOptionSelectView.png" alt="Opción de cambio de dirección" width="250"/>
-</div>
+![Opción de cambio de dirección](images/ChangeAddressOptionSelectView_wl_es.png){w=250px align=center}
 
 3. **Administración de direcciones** → Explorar direcciones de cambio (paginado: 10 por vista)
 
-<div align="center">
-     <img src="images/AddressExplorerChangeAddressListView.png" alt="Lista de cambios de direcciones" width="250"/>
-</div>
+![Lista de cambios de direcciones](images/AddressExplorerChangeAddressListView_wl_es.png){w=250px align=center}
 
 4. **Acceso a código QR** → Toque cualquier dirección para ver el código QR
 
-<div align="center">
-     <img src="images/AddressExplorerQRView.png" alt="Código QR de dirección para compartir" width="250"/>
-</div>
+![Código QR de dirección para compartir](images/AddressExplorerQRView_wl_es.png){w=250px align=center}
 
 #### Información clave
 

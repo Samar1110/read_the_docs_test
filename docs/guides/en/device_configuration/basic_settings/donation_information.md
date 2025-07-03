@@ -8,14 +8,8 @@ Access donation details to support SeedSigner development.
 2. **View Details**: Review donation information and addresses
 3. **Support Development**: Consider contributing to the project
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuDonateSelectView.png" alt="Donate selection menu" width="250"/>
-</div>
+![Donate selection menu](images/SettingsMainMenuDonateSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_donate.png" alt="Donation information screen" width="250"/>
-</div>
+![Donation information screen](images/SettingsEntryUpdateSelectionView_donate_dc_bs_en.png){w=250px align=center}

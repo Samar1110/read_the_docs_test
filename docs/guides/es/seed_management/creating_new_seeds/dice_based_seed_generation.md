@@ -6,23 +6,17 @@ Genere semillas con dados físicos para máxima seguridad y aleatoriedad demostr
 
 1. **Navegar**: Menú principal → **Herramientas**
 
-<div align="center">
-     <img src="images/ToolsOptionSelectView.png" alt="Selección del menú Herramientas" width="250"/>
-</div>
+![Selección del menú Herramientas](images/ToolsOptionSelectView_sm_cn_es.png){w=250px align=center}
 
 2. **Seleccionar método**: Elija **"Nueva semilla"** con el icono del dado
 
-<div align="center">
-     <img src="images/SeedGenerateDiceMethodView.png" alt="Selección del método de dados" width="250"/>
-</div>
+![Selección del método de dados](images/SeedGenerateDiceMethodView_sm_cn_es.png){w=250px align=center}
 
 3. **Seleccionar longitud**:
      - **12 palabras** requiere 50 tiradas de dados
      - **24 palabras** requiere 99 tiradas de dados (recomendado)
 
-<div align="center">
-     <img src="images/SeedMnemonicLengthDiceView.png" alt="Semilla Longitud para el método de dados" width="250"/>
-</div>
+![Semilla Longitud para el método de dados](images/SeedMnemonicLengthDiceView_sm_cn_es.png){w=250px align=center}\
 
 4. **Preparar dados físicos**: Usar un dado estándar de 6 caras
 
@@ -31,32 +25,22 @@ Genere semillas con dados físicos para máxima seguridad y aleatoriedad demostr
      - Selecciona el número correspondiente (1-6) en la pantalla pulsando el **joystick**
      - Repite el proceso para todas las tiradas necesarias
 
-<div align="center">
-     <img src="images/ToolsDiceEntropyEntryView.png" alt="Instrucciones para tirar dados" width="250"/>
-</div>
+![Instrucciones para tirar dados](images/ToolsDiceEntropyEntryView_sm_cn_es.png){w=250px align=center}
 
 6. **Completar todas las tiradas**: El indicador de progreso muestra tu estado de finalización
 
-<div align="center">
-     <img src="images/ToolsDiceEntropyProgressView.png" alt="Indicador de progreso de la tirada de dados" width="250"/>
-</div>
+![Indicador de progreso de la tirada de dados](images/ToolsDiceEntropyProgressView_sm_cn_es.png){w=250px align=center}
 
 7. **Aceptar la advertencia de seguridad**: Pulsa "Entiendo" después de leer la advertencia de información clasificada
 
-<div align="center">
-     <img src="images/SeedWarningView.png" alt="Advertencia de seguridad para la semilla generada por dados" width="250"/>
-</div>
+![Advertencia de seguridad para la semilla generada por dados](images/SeedWarningView_sm_cn_es.png){w=250px align=center}
 
 8. **Registrar palabras generadas**: Anote todas las palabras semilla en orden.
 
-<div align="center">
-     <img src="images/SeedMnemonicEntryView.png" alt="Pantalla de visualización de palabras semilla" width="250"/>
-</div>
+![Pantalla de visualización de palabras semilla](images/SeedMnemonicEntryView_sm_cn_es.png){w=250px align=center}
 
 9. **Verificar la copia de seguridad**: Complete el proceso de verificación.
 
-<div align="center">
-     <img src="images/SeedBackupTestView.png" alt="Pantalla de verificación de la copia de seguridad de la semilla" width="250"/>
-</div>
+![Pantalla de verificación de la copia de seguridad de la semilla](images/SeedBackupTestView_sm_cn_es.png){w=250px align=center}
 
 > **🎲 ¿Por qué usar dados?** Los dados físicos proporcionan una aleatoriedad real que no se ve comprometida por vulnerabilidades de software, puertas traseras de hardware ni interferencias electromagnéticas. Este método le brinda control total sobre la fuente de entropía.

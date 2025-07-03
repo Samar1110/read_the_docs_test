@@ -9,18 +9,10 @@ Configura la compatibilidad con frases semilla de estilo Electrum.
      - **Activado** - Compatible con el formato de semilla de Electro
      - **Desactivado** - Solo BIP-39 estándar (predeterminado)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzado" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ElectrumSeedsSelectView.png" alt="Menú de selección de semillas de Electro" width="250"/>
-</div>
+![Menú de selección de semillas de Electro](images/ElectrumSeedsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_electrum_seeds.png" alt="Configuración de las semillas de Electrorum" width="250"/>
-</div>
+![Configuración de las semillas de Electrorum](images/SettingsEntryUpdateSelectionView_electrum_seeds_dc_as_es.png){w=250px align=center}

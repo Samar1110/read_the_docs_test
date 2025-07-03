@@ -9,18 +9,10 @@ Control display of privacy-related warnings and notifications.
    - **Enabled** - Show privacy warnings (default)
    - **Disabled** - Hide privacy warnings
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowPrivacyWarningsSelectView.png" alt="Show privacy warnings selection menu" width="250"/>
-</div>
+![Show privacy warnings selection menu](images/ShowPrivacyWarningsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_privacy_warnings.png" alt="Privacy warnings configuration" width="250"/>
-</div>
+![Privacy warnings configuration](images/SettingsEntryUpdateSelectionView_privacy_warnings_dc_as_en.png){w=250px align=center}

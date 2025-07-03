@@ -9,18 +9,10 @@ Manage QR code brightness tips directly from your settings menu.
    - **Enabled** - Show brightness tips (default)
    - **Disabled** - Hide brightness tips
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowQrBrightnessTipsSelectVIew.png" alt="Show QR brightness tipsselection menu" width="250"/>
-</div>
+![Show QR brightness tipsselection menu](images/ShowQrBrightnessTipsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_qr_brightness_tips.png" alt="QR brightness tips configuration" width="250"/>
-</div>
+![QR brightness tips configuration](images/SettingsEntryUpdateSelectionView_qr_brightness_tips_dc_as_en.png){w=250px align=center}

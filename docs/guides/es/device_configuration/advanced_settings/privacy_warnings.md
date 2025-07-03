@@ -9,18 +9,10 @@ Controla la visualización de advertencias y notificaciones relacionadas con la 
      - **Activado** - Mostrar advertencias de privacidad (predeterminado)
      - **Desactivado** - Ocultar advertencias de privacidad
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzado" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowPrivacyWarningsSelectView.png" alt="Mostrar menú de selección de advertencias de privacidad" width="250"/>
-</div>
+![Mostrar menú de selección de advertencias de privacidad](images/ShowPrivacyWarningsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_privacy_warnings.png" alt="Configuración de advertencias de privacidad" width="250"/>
-</div>
+![Configuración de advertencias de privacidad](images/SettingsEntryUpdateSelectionView_privacy_warnings_dc_as_es.png){w=250px align=center}

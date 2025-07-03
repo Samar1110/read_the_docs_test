@@ -9,18 +9,10 @@ Configure support for Electrum-style seed phrases.
    - **Enabled** - Support Electrum seed format
    - **Disabled** - Standard BIP-39 only (default)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ElectrumSeedsSelectView.png" alt="Electrum seeds selection menu" width="250"/>
-</div>
+![Electrum seeds selection menu](images/ElectrumSeedsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_electrum_seeds.png" alt="Electrum seeds configuration" width="250"/>
-</div>
+![Electrum seeds configuration](images/SettingsEntryUpdateSelectionView_electrum_seeds_dc_as_en.png){w=250px align=center}

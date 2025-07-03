@@ -10,18 +10,10 @@ Adjust the density of generated QR codes to balance size and scannability.
    - **Medium** - Balanced size and compatibility (default)
    - **High** - Smaller, more data-dense QR codes
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/QRCodeDensitySelectView.png" alt="QR code density selection menu" width="250"/>
-</div>
+![QR code density selection menu](images/QRCodeDensitySelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_qr_density.png" alt="QR code density options" width="250"/>
-</div>
+![QR code density options](images/SettingsEntryUpdateSelectionView_qr_density_dc_as_en.png){w=250px align=center}

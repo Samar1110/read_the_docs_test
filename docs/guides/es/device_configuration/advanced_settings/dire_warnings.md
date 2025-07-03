@@ -9,18 +9,10 @@ Configure la visualización de advertencias de seguridad críticas.
      - **Activado** - Mostrar advertencias críticas (predeterminado)
      - **Desactivado** - Ocultar advertencias graves
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzado" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowDireWarningsSelectView.png" alt="Menú de selección de advertencias graves" width="250"/>
-</div>
+![Menú de selección de advertencias graves](images/ShowDireWarningsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_dire_warnings.png" alt="Configuración de advertencias Dire" width="250"/>
-</div>
+![Configuración de advertencias Dire](images/SettingsEntryUpdateSelectionView_dire_warnings_dc_as_es.png){w=250px align=center}

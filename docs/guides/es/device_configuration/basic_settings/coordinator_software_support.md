@@ -13,14 +13,8 @@ Habilite o deshabilite la compatibilidad con aplicaciones de billetera específi
      - ✅ **Specter Desktop** - Billetera centrada en la privacidad
      - ✅ **Keeper** - Billetera de planificación de herencia
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_bs_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuCoordinatorSoftwareSelectView.png" alt="Menú de selección de coordenadas" width="250"/>
-</div>
+![Menú de selección de coordenadas](images/SettingsMainMenuCoordinatorSoftwareSelectView_dc_bs_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_coordinators.png" alt="Configuración de compatibilidad del software de billetera" width="250"/>
-</div>
+![Configuración de compatibilidad del software de billetera](images/SettingsEntryUpdateSelectionView_coordinators_dc_bs_es.png){w=250px align=center}

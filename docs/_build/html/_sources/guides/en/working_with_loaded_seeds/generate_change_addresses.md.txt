@@ -5,41 +5,30 @@ View addresses used for transaction change return
 ## Complete Step-by-Step Process with All Screenshots
 
 **Navigation Path**: `Home → Seeds → [Select Seed] → Address Explorer`
-<div align="center">
-     <img src="images/SeedOptionSelectView.png" alt="Seeds navigation flow" width="250"/>
-</div>
-<div align="center">
-     <img src="images/SavedSeedSelectView.png" alt="Address format selection" width="250"/>
-</div>
-<div align="center">
-     <img src="images/AddressExplorerSelectView.png" alt="Address format selection" width="250"/>
-</div>
+
+![Seeds navigation flow](images/SeedOptionSelectView_wl_en.png){w=250px align=center}
+
+![Address format selection](images/SavedSeedSelectView_wl_en.png){w=250px align=center}
+
+![Address format selection](images/AddressExplorerSelectView_wl_en.png){w=250px align=center}
 
 **Process Flow**:
 
 1. **Script Type Selection** → Choose your preferred address format
 
-<div align="center">
-     <img src="images/ScriptTypeOptions.png" alt="Address format selection" width="250"/>
-</div>
+![Address format selection](images/ScriptTypeOptions_wl_en.png){w=250px align=center}
 
 2. **Change Access** → Select "Change Address" instead of receive
 
-<div align="center">
-     <img src="images/ChangeAddressOptionSelectView.png" alt="Change address option" width="250"/>
-</div>
+![Change address option](images/ChangeAddressOptionSelectView_wl_en.png){w=250px align=center}
 
 3. **Address Management** → Browse change addresses (paginated: 10 per view)
 
-<div align="center">
-     <img src="images/AddressExplorerChangeAddressListView.png" alt="Change addresses list" width="250"/>
-</div>
+![Change addresses list](images/AddressExplorerChangeAddressListView_wl_en.png){w=250px align=center}
 
 4. **QR Code Access** → Tap any address for QR code display
 
-<div align="center">
-     <img src="images/AddressExplorerQRView.png" alt="Address QR code for sharing" width="250"/>
-</div>
+![Address QR code for sharing](images/AddressExplorerQRView_wl_en.png){w=250px align=center}
 
 #### Key Information
 

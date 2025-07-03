@@ -9,23 +9,12 @@ Configure the display driver for your specific hardware setup.
    - **st7789 240x240** - Standard square display (default)
    - **st7789 320x240** - Rectangular display option
    - **ili9341 320x240 (beta)** - Alternative display driver (beta)
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Hardware selection menu](images/HardwareSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/HardwareSelectView.png" alt="Hardware selection menu" width="250"/>
-</div>
+![Display type selection menu](images/DisplayTypeSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/DisplayTypeSelectView.png" alt="Display type selection menu" width="250"/>
-</div>
-
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_display_type.png" alt="Display type configuration" width="250"/>
-</div>
+![Display type configuration](images/SettingsEntryUpdateSelectionView_display_type_dc_hw_en.png){w=250px align=center}

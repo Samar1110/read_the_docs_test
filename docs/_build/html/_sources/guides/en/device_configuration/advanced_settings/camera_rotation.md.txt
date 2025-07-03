@@ -11,18 +11,10 @@ Adjust camera orientation to match your device setup.
    - **180 degrees** - Upside down (default for most setups)
    - **270 degrees** - Quarter turn counter-clockwise
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/CameraRotationSelectView.png" alt="Camera Rotation selection menu" width="250"/>
-</div>
+![Camera Rotation selection menu](images/CameraRotationSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_camera_rotation.png" alt="Camera rotation settings" width="250"/>
-</div>
+![Camera rotation settings](images/SettingsEntryUpdateSelectionView_camera_rotation_dc_as_en.png){w=250px align=center}

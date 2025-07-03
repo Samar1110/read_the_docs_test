@@ -9,16 +9,10 @@ Configure whether your settings are saved permanently or reset on each boot.
    - **"Enabled"** - Saves settings to SD card (survives reboots)
    - **"Disabled"** - Temporary settings only (resets on power cycle)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuPersistentSelectView.png" alt="Persistent selection menu" width="250"/>
-</div>
+![Persistent selection menu](images/SettingsMainMenuPersistentSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_persistent_settings.png" alt="Persistent settings toggle" width="250"/>
-</div>
+![Persistent settings toggle](images/SettingsEntryUpdateSelectionView_persistent_settings_dc_bs_en.png){w=250px align=center}
 
 > **🔒 Security Consideration**: Enabled persistent settings provide convenience but store configuration data on the SD card. Disabled persistent settings provide maximum security but require reconfiguring preferences after each boot.

@@ -11,18 +11,10 @@ Configure los tipos de firma compatibles con el dispositivo.
 
 3. **Configuración predeterminada**: Tanto la firma única como la multifirma están seleccionadas por defecto
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzada" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SigTypesSelectView.png" alt="Selección de tipo de firma Menú" width="250"/>
-</div>
+![Selección de tipo de firma Menú](images/SigTypesSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_sig_types.png" alt="Configuración de tipos de firma" width="250"/>
-</div>
+![Configuración de tipos de firma](images/SettingsEntryUpdateSelectionView_sig_types_dc_as_es.png){w=250px align=center}

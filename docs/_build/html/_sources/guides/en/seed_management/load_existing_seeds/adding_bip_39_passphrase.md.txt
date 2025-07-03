@@ -6,41 +6,29 @@ Enhance your seed security with an optional passphrase. This creates an entirely
 
 1. **Access Passphrase Entry**: From the "Finalize Seed" screen, select **"BIP-39 Passphrase"**
 
-<div align="center">
-     <img src="images/BIP-39PassphraseSelectView.png" alt="Accessing passphrase entry from finalize screen" width="250"/>
-</div>
+![Accessing passphrase entry from finalize screen](images/BIP-39PassphraseSelectView_sm_le_en.png){w=250px align=center}
 
 2. **Enter Your Passphrase**: Use the on-screen keyboard with multiple character sets:
    - **Default Mode**: Lowercase letters (a-z)
 
-<div align="center">
-     <img src="images/SeedAddPassphraseView_lowercase.png" alt="Passphrase entry screen - lowercase" width="250"/>
-</div>
+![Passphrase entry screen - lowercase](images/SeedAddPassphraseView_lowercase_sm_le_en.png){w=250px align=center}
 
 - **Key A**: Switch to uppercase letters (A-Z)
 
-<div align="center">
-     <img src="images/SeedAddPassphraseView_uppercase.png" alt="Passphrase entry screen - uppercase" width="250"/>
-</div>
+![Passphrase entry screen - uppercase](images/SeedAddPassphraseView_uppercase_sm_le_en.png){w=250px align=center}
 
 - **Key B**: Access numbers (0-9) and symbols
 
-<div align="center">
-     <img src="images/SeedAddPassphraseView_digits.png" alt="Passphrase entry screen - symbols and numbers" width="250"/>
-</div>
-<div align="center">
-     <img src="images/SeedAddPassphraseView_symbols_1.png" alt="Passphrase entry screen - symbols and numbers" width="250"/>
-</div>
-<div align="center">
-     <img src="images/SeedAddPassphraseView_symbols_2.png" alt="Passphrase entry screen - symbols and numbers" width="250"/>
-</div>
+![Passphrase entry screen - symbols and numbers](images/SeedAddPassphraseView_digits_sm_le_en.png){w=250px align=center}
+
+![Passphrase entry screen - symbols and numbers](images/SeedAddPassphraseView_symbols_1_sm_le_en.png){w=250px align=center}
+
+![Passphrase entry screen - symbols and numbers](images/SeedAddPassphraseView_symbols_2_sm_le_en.png){w=250px align=center}
 
 3. **Review Your Entry**: Double-check your passphrase for accuracy
 
 4. **Confirm or Edit**: Select **"Done"** to confirm, or make corrections if needed
 
-<div align="center">
-     <img src="images/SeedPassphraseReviewView.png" alt="Passphrase review screen" width="250"/>
-</div>
+![Passphrase review screen](images/SeedPassphraseReviewView_sm_le_en.png){w=250px align=center}
 
 > **🔐 Critical Security Note**: A BIP-39 passphrase creates an entirely different wallet from the same seed words. You must store your passphrase separately from your seed words. Losing the passphrase means losing access to that wallet forever.

@@ -9,24 +9,14 @@ Invert display colors for different viewing preferences or hardware configuratio
    - **Enabled** - Invert display colors (default)
    - **Disabled** - Standard color display
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/HardwareSelectView.png" alt="Hardware selection menu" width="250"/>
-</div>
+![Hardware selection menu](images/HardwareSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/InvertColorsSelectView.png" alt="Invert Colors selection menu" width="250"/>
-</div>
+![Invert Colors selection menu](images/InvertColorsSelectView_dc_hw_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_color_inverted.png" alt="Color inversion configuration" width="250"/>
-</div>
+![Color inversion configuration](images/SettingsEntryUpdateSelectionView_color_inverted_dc_hw_en.png){w=250px align=center}
 
 > **🔧 Troubleshooting Use**: Run hardware tests if you're experiencing issues with button responses, display problems, or camera malfunctions. This helps isolate hardware vs. software issues.

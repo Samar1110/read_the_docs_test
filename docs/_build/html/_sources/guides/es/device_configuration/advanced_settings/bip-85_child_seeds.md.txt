@@ -9,18 +9,10 @@ Habilite la compatibilidad con la generación de semillas secundarias determinis
      - **Activado** - Compatible con la generación de semillas hijas BIP-85
      - **Desactivado** - Deshabilitar la funcionalidad BIP-85 (predeterminado)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzada" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/BIP-85ChildSeedsSelectView.png" alt="Menú de selección de semillas secundarias BIP-85" width="250"/>
-</div>
+![Menú de selección de semillas secundarias BIP-85](images/BIP-85ChildSeedsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_bip85_child_seeds.png" alt="Configuración de semillas secundarias BIP-85" width="250"/>
-</div>
+![Configuración de semillas secundarias BIP-85](images/SettingsEntryUpdateSelectionView_bip85_child_seeds_dc_as_es.png){w=250px align=center}

@@ -10,22 +10,12 @@ Configure el controlador de pantalla para su configuración de hardware.
      - **st7789 320x240** - Opción de pantalla rectangular
      - **ili9341 320x240 (beta)** - Controlador de pantalla alternativo (beta)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_hw_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzada" width="250"/>
-</div>
+![Menú de selección avanzado](images/SettingsMainMenuAdvancedSelectView_dc_hw_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/HardwareSelectView.png" alt="Menú de selección de hardware" width="250"/>
-</div>
+![Menú de selección de hardware](images/HardwareSelectView_dc_hw_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/DisplayTypeSelectView.png" alt="Menú de selección de tipo de pantalla" width="250"/>
-</div>
+![Menú de selección de tipo de pantalla](images/DisplayTypeSelectView_dc_hw_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_display_config.png" alt="Configuración del tipo de pantalla" width="250"/>
-</div>
+![Configuración del tipo de pantalla](images/SettingsEntryUpdateSelectionView_display_config_dc_hw_es.png){w=250px align=center}

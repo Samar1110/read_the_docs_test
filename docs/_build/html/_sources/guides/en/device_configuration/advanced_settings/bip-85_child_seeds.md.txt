@@ -9,18 +9,10 @@ Enable support for BIP-85 deterministic child seed generation.
    - **Enabled** - Support BIP-85 child seed generation
    - **Disabled** - Disable BIP-85 functionality (default)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/BIP-85ChildSeedsSelectView.png" alt="BIP-85 child seeds selection menu" width="250"/>
-</div>
+![BIP-85 child seeds selection menu](images/BIP-85ChildSeedsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_bip85.png" alt="BIP-85 child seeds configuration" width="250"/>
-</div>
+![BIP-85 child seeds configuration](images/SettingsEntryUpdateSelectionView_bip85_dc_as_en.png){w=250px align=center}

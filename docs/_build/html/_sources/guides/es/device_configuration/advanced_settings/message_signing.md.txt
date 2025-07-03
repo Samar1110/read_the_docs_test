@@ -9,18 +9,10 @@ Habilite la función de firma criptográfica de mensajes.
      - **Activado** - Permitir firma de mensajes
      - **Deactivado** - Deshabilitar firma de mensajes (predeterminado)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzado" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/MessageSigningSelectView.png" alt="Menú de selección de firma de mensajes" width="250"/>
-</div>
+![Menú de selección de firma de mensajes](images/MessageSigningSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_message_signing.png" alt="Configuración de firma de mensajes" width="250"/>
-</div>
+![Configuración de firma de mensajes](images/SettingsEntryUpdateSelectionView_message_signing_dc_as_es.png){w=250px align=center}

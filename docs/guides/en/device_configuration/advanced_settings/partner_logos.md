@@ -9,18 +9,10 @@ Control display of partner and wallet provider logos.
    - **Enabled** - Show partner logos (default)
    - **Disabled** - Hide partner logos
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/ShowPartnerLogosSelectVIew.png" alt="Show partner logos selection menu" width="250"/>
-</div>
+![Show partner logos selection menu](images/ShowPartnerLogosSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_partner_logos.png" alt="Partner logos configuration" width="250"/>
-</div>
+![Partner logos configuration](images/SettingsEntryUpdateSelectionView_partner_logos_dc_as_en.png){w=250px align=center}

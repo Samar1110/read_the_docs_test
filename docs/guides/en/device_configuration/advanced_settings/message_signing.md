@@ -9,18 +9,10 @@ Enable cryptographic message signing functionality.
    - **Enabled** - Allow message signing
    - **Disabled** - Disable message signing (default)
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/MessageSigningSelectView.png" alt="Message Signing selection menu" width="250"/>
-</div>
+![Message Signing selection menu](images/MessageSigningSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_message_signing.png" alt="Message signing configuration" width="250"/>
-</div>
+![Message signing configuration](images/SettingsEntryUpdateSelectionView_message_signing_dc_as_en.png){w=250px align=center}

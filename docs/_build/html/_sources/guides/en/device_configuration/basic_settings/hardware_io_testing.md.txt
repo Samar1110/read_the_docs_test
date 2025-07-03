@@ -8,14 +8,8 @@ Verify that all device components are functioning correctly.
 2. **Test Controllers**: Use this screen to test your device's input/output functionality
 3. **Verify Components**: Ensure all buttons, display, and camera are working properly
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuInputOutputSelectView.png" alt="I/O selection menu" width="250"/>
-</div>
+![I/O selection menu](images/SettingsMainMenuInputOutputSelectView_dc_bs_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_io_test.png" alt="I/O testing interface" width="250"/>
-</div>
+![I/O testing interface](images/SettingsEntryUpdateSelectionView_io_test_dc_bs_en.png){w=250px align=center}

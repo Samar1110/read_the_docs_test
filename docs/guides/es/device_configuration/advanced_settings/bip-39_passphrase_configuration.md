@@ -10,18 +10,10 @@ Controle cómo el dispositivo gestiona las contraseñas BIP-39.
      - **Desactivado** - No se admiten contraseñas
      - **Requerido** - Cada semilla debe tener una contraseña
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzada" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/BIP-39PassphraseSelectView.png" alt="Menú de selección de contraseña BIP-39" width="250"/>
-</div>
+![Menú de selección de contraseña BIP-39](images/BIP-39PassphraseSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_passphrase.png" alt="Opciones de configuración de la contraseña" width="250"/>
-</div>
+![Opciones de configuración de la contraseña](images/SettingsEntryUpdateSelectionView_passphrase_dc_as_es.png){w=250px align=center}

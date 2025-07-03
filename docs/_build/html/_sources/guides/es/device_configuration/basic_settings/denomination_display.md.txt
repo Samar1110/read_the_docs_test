@@ -8,14 +8,8 @@ Configure cómo se muestran las cantidades de Bitcoin en el dispositivo.
 2. **Seleccionar formato de visualización**: Elija el formato de denominación que prefiera entre las opciones disponibles
 3. **Configuración predeterminada**: El umbral predeterminado es 0,01
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_bs_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuDenominationDisplaySelectView.png" alt="Menú de selección de visualización de denominación" width="250"/>
-</div>
+![Menú de selección de visualización de denominación](images/SettingsMainMenuDenominationDisplaySelectView_dc_bs_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_denomination.png" alt="Opciones de visualización de denominación" ancho="250"/>
-</div>
+![Opciones de visualización de denominación](images/SettingsEntryUpdateSelectionView_denomination_dc_bs_es.png){w=250px align=center}

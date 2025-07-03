@@ -4,39 +4,27 @@ Acceda a sus palabras clave para verificar copias de seguridad o realizar recupe
 
 ## Proceso completo paso a paso con capturas de pantalla
 
-1. **Navegar**: `Inicio → Semillas → [Seleccionar Semilla] → Respaldar Semilla → Ver frase semilla`
+1. **Navegar**: `Inicio → Semillas → [Seleccionar Semilla] → Salvar Semilla → Ver frase semilla`
 
-<div align="center">
-     <img src="images/SeedOptionSelectView.png" alt="Flujo de navegación de Seeds" width="250"/>
-</div>
-<div align="center">
-     <img src="images/SavedSeedSelectView.png" alt="Selección de formato de dirección" width="250"/>
-</div>
+![Flujo de navegación de Seeds](images/SeedOptionSelectView_wl_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/BackupSeedSelectView.png" alt="Submenú Respaldar Semilla" width="250"/>
-</div>
-<div align="center">
-     <img src="images/ViewSeedWordsSelectView.png" alt="Submenú de la semilla de copia de seguridad" width="250"/>
-</div>
+![Selección de formato de dirección](images/SavedSeedSelectView_wl_es.png){w=250px align=center}
+
+![Submenú Respaldar Semilla](images/BackupSeedSelectView_wl_es.png){w=250px align=center}
+
+![Submenú de la semilla de copia de seguridad](images/ViewSeedWordsSelectView_wl_es.png){w=250px align=center}
 
 2. **Aceptar advertencia de seguridad**: Pulse **"Entiendo"** para ver la advertencia de información clasificada.
 
-<div align="center">
-     <img src="images/ViewSeedWordsWarningView.png" alt="Advertencia de seguridad antes de ver las palabras clave" width="250"/>
-</div>
+![Advertencia de seguridad antes de ver las palabras clave](images/ViewSeedWordsWarningView_wl_es.png){w=250px align=center}
 
 3. **Revisar todas las palabras**: Vea su frase clave completa (4 palabras a la vez).
 
-<div align="center">
-     <img src="images/SeedWordsView.png" alt="Pantalla de visualización de palabras clave" width="250"/>
-</div>
+![Pantalla de visualización de palabras clave](images/SeedWordsView_wl_es.png){w=250px align=center}
 
 4. **Verificación opcional**: Complete el proceso de verificación de la copia de seguridad seleccionando "Verificar" o "Omitir" para continuar.
 
-<div align="center">
-     <img src="images/SeedBackupTestView.png" alt="Verificación opcional de la copia de seguridad de la semilla" width="250"/>
-</div>
+![Verificación opcional de la copia de seguridad de la semilla](images/SeedBackupTestView_wl_es.png){w=250px align=center}
 
 5. **Salida segura**: Asegúrate de estar en un lugar privado antes de ver.
 

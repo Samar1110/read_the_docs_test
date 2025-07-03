@@ -10,18 +10,10 @@ Configure which signature types are supported by the device.
    - **Multisig** - Multi-signature transactions
 3. **Default Setting**: Both Single Sig and Multisig are selected by default
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SigTypesSelectView.png" alt="Sig type selection menu" width="250"/>
-</div>
+![Sig type selection menu](images/SigTypesSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_sig_types.png" alt="Signature types configuration" width="250"/>
-</div>
+![Signature types configuration](images/SettingsEntryUpdateSelectionView_sig_types_dc_as_en.png){w=250px align=center}

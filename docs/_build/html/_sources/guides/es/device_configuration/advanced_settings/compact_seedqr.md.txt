@@ -9,18 +9,10 @@ Configure la compresión de SeedQR para códigos QR más eficientes.
      - **Activado** - Usar formato compacto de SeedQR (predeterminado)
      - **Desactivado** - Usar formato estándar de SeedQR
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Menú de selección de ajustes" width="250"/>
-</div>
+![Menú de selección de ajustes](images/HomeScreenSettingsSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Menú de selección avanzado" width="250"/>
-</div>
+![Menú de selección avanzada](images/SettingsMainMenuAdvancedSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/CompactSeedQRSelectView.png" alt="Menú de selección de SeedQR compacto" width="250"/>
-</div>
+![Menú de selección de SeedQR compacto](images/CompactSeedQRSelectView_dc_as_es.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_compact_seedqr.png" alt="Configuración de Compact SeedQR" width="250"/>
-</div>
+![Configuración de Compact SeedQR](images/SettingsEntryUpdateSelectionView_compact_seedqr_dc_as_es.png){w=250px align=center}

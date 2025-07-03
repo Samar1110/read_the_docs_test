@@ -9,18 +9,10 @@ Control extended public key export functionality.
    - **Enabled** - Allow xpub export (default)
    - **Disabled** - Disable xpub export functionality
 
-<div align="center">
-     <img src="images/HomeScreenSettingsSelectView.png" alt="Settings selection menu" width="250"/>
-</div>
+![Settings selection menu](images/HomeScreenSettingsSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsMainMenuAdvancedSelectView.png" alt="Advanced selection menu" width="250"/>
-</div>
+![Advanced selection menu](images/SettingsMainMenuAdvancedSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/XPubExportSelectView.png" alt="XPub export selection menu" width="250"/>
-</div>
+![XPub export selection menu](images/XPubExportSelectView_dc_as_en.png){w=250px align=center}
 
-<div align="center">
-     <img src="images/SettingsEntryUpdateSelectionView_xpub_export.png" alt="Xpub export configuration" width="250"/>
-</div>
+![Xpub export configuration](images/SettingsEntryUpdateSelectionView_xpub_export_dc_as_en.png){w=250px align=center}

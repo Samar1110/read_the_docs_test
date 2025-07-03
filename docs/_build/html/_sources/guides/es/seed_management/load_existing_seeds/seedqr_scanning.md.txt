@@ -6,29 +6,21 @@ Cargue semillas de forma rápida y segura desde códigos SeedQR: un formato de c
 
 1. **Navegar**: Menú principal → **Escanear**
 
-<div align="center">
-     <img src="images/MainMenuView.png" alt="Opción de escaneo resaltada en el menú principal" width="250"/>
-</div>
+![Opción de escaneo resaltada en el menú principal](images/MainMenuView_sm_le_es.png){w=250px align=center}
 
 2. **Posicionar código QR**: Apunte la cámara a su código SeedQR
 
-<div align="center">
-     <img src="images/SeedQRScan.png" alt="Interfaz de escaneo SeedQR" width="250"/>
-</div>
+![Interfaz de escaneo SeedQR](images/SeedQRScan_sm_le_es.png){w=250px align=center}
 
 3. **Esperar reconocimiento**: El dispositivo detectará y procesará automáticamente los códigos SeedQR válidos.
 
 4. **Revisar detalles**: Verifique la información de la semilla en la pantalla "Finalizar semilla"
 
-<div align="center">
-     <img src="images/SeedFinalizeView.png" alt="Finalización de SeedQR screen" width="250"/>
-</div>
+![Finalización de SeedQR screen](images/SeedFinalizeView_sm_le_es.png){w=250px align=center}
 
 5. **Gestionar errores**: Si ve "Tipo de QR desconocido", el formato del código QR no se reconoce.
 
-<div align="center">
-     <img src="images/ScanInvalidQRTypeView.png" alt="Mensaje de error de tipo de QR desconocido" width="250"/>
-</div>
+![Mensaje de error de tipo de QR desconocido](images/ScanInvalidQRTypeView_sm_le_es.png){w=250px align=center}
 
 6. **Finalizar carga**: Seleccione **"Listo"** para cargar la semilla.
 
