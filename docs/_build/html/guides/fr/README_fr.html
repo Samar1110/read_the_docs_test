@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guide d’utilisation de SeedSigner &mdash; seedsigner_userguide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            seedsigner_userguide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Guide d’utilisation de SeedSigner</a><ul>
+<li><a class="reference internal" href="#table-des-matieres">📋 Table des matières</a><ul>
+<li><a class="reference internal" href="#prise-en-main">🚀 Prise en main</a></li>
+<li><a class="reference internal" href="#gestion-des-graines">🌱 Gestion des graines</a></li>
+<li><a class="reference internal" href="#utilisation-des-graines-chargees">🔧 Utilisation des graines chargées</a></li>
+<li><a class="reference internal" href="#transactions-et-verification">✍️ Transactions et vérification</a></li>
+<li><a class="reference internal" href="#configuration-de-l-appareil">⚙️ Configuration de l’appareil</a></li>
+<li><a class="reference internal" href="#assistance-et-ressources">🔧 Assistance et ressources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#composants-materiels">Composants matériels</a><ul>
+<li><a class="reference internal" href="#commandes-du-waveshare-lcd-hat">Commandes du WaveShare LCD Hat</a></li>
+<li><a class="reference internal" href="#reference-des-fonctions-des-boutons">Référence des fonctions des boutons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conclusion">🏁 Conclusion</a><ul>
+<li><a class="reference internal" href="#regles-d-or">Règles d’or :</a></li>
+<li><a class="reference internal" href="#obtenir-de-l-aide">Obtenir de l’aide</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">seedsigner_userguide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Guide d’utilisation de SeedSigner</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/guides/fr/README_fr.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="guide-d-utilisation-de-seedsigner">
+<h1>Guide d’utilisation de SeedSigner<a class="headerlink" href="#guide-d-utilisation-de-seedsigner" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="../../_images/SeedSigner_Logo2.png"><img alt="Logo de SeedSigner" class="align-center" src="../../_images/SeedSigner_Logo2.png" style="width: 400px;" /></a></p>
+<p>SeedSigner est un outil de signature Bitcoin open source et isolé qui vous permet de gérer les phrases de signature et de signer des transactions en toute sécurité. Ce guide fournit des instructions étape par étape, organisées selon les flux de travail courants.</p>
+<section id="table-des-matieres">
+<h2>📋 Table des matières<a class="headerlink" href="#table-des-matieres" title="Link to this heading"></a></h2>
+<section id="prise-en-main">
+<h3>🚀 Prise en main<a class="headerlink" href="#prise-en-main" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="getting_started/initial_setup_and_power_on.html"><span class="std std-doc">Configuration initiale et démarrage</span></a></p></li>
+<li><p><a class="reference internal" href="getting_started/navigation_basics.html"><span class="std std-doc">Bases de la navigation</span></a></p></li>
+<li><p><a class="reference internal" href="getting_started/powering_off_safely.html"><span class="std std-doc">Mise hors tension en toute sécurité</span></a></p></li>
+<li><p><a class="reference internal" href="getting_started/restarting_your_device.html"><span class="std std-doc">Redémarrage de votre appareil</span></a></p></li>
+</ul>
+</section>
+<section id="gestion-des-graines">
+<h3>🌱 Gestion des graines<a class="headerlink" href="#gestion-des-graines" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Création de nouvelles graines</strong></p>
+<ul>
+<li><p><a class="reference internal" href="seed_management/creating_new_seeds/camera_based_seed_generation.html"><span class="std std-doc">Génération de graines par caméra</span></a></p></li>
+<li><p><a class="reference internal" href="seed_management/creating_new_seeds/dice_based_seed_generation.html"><span class="std std-doc">Génération de graines par dés Génération</span></a></p></li>
+<li><p><a class="reference internal" href="seed_management/creating_new_seeds/calc_12th24th_word_seed_generation.html"><span class="std std-doc">Calcul de la génération des graines de mots 12e/24e</span></a></p></li>
+</ul>
+</li>
+<li><p><strong>Chargement des graines existantes</strong></p>
+<ul>
+<li><p><a class="reference internal" href="seed_management/load_existing_seeds/manual_seed_entry.html"><span class="std std-doc">Saisie manuelle des graines</span></a></p></li>
+<li><p><a class="reference internal" href="seed_management/load_existing_seeds/seedqr_scanning.html"><span class="std std-doc">Scan des graines QR</span></a></p></li>
+<li><p><a class="reference internal" href="seed_management/load_existing_seeds/adding_bip_39_passphrase.html"><span class="std std-doc">Ajout de BIP-39 Phrase secrète</span></a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="utilisation-des-graines-chargees">
+<h3>🔧 Utilisation des graines chargées<a class="headerlink" href="#utilisation-des-graines-chargees" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="working_with_loaded_seeds/export_public_key_xpub.html"><span class="std std-doc">Exporter la clé publique (Xpub)</span></a></p></li>
+<li><p><a class="reference internal" href="working_with_loaded_seeds/verify_address_ownership.html"><span class="std std-doc">Vérification de la propriété de l’adresse</span></a></p></li>
+<li><p><a class="reference internal" href="working_with_loaded_seeds/generate_receiving_addresses.html"><span class="std std-doc">Générer les adresses de réception</span></a></p></li>
+<li><p><a class="reference internal" href="working_with_loaded_seeds/generate_change_addresses.html"><span class="std std-doc">Générer les adresses de modification</span></a></p></li>
+<li><p><a class="reference internal" href="working_with_loaded_seeds/view_seed_words.html"><span class="std std-doc">Afficher les mots clés</span></a></p></li>
+<li><p><a class="reference internal" href="working_with_loaded_seeds/create_seedqr_backup.html"><span class="std std-doc">Créer un QR code source Sauvegarde</span></a></p></li>
+</ul>
+</section>
+<section id="transactions-et-verification">
+<h3>✍️ Transactions et vérification<a class="headerlink" href="#transactions-et-verification" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="psbt_signing_and_seed_ops/sign_bitcoin_transaction_psbt.html"><span class="std std-doc">Signature d’une transaction Bitcoin (PSBT)</span></a></p></li>
+<li><p><a class="reference internal" href="psbt_signing_and_seed_ops/discard_loaded_seed.html"><span class="std std-doc">Supprimer la graine chargée</span></a></p></li>
+</ul>
+</section>
+<section id="configuration-de-l-appareil">
+<h3>⚙️ Configuration de l’appareil<a class="headerlink" href="#configuration-de-l-appareil" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Paramètres de base</strong></p>
+<ul>
+<li><p><a class="reference internal" href="device_configuration/basic_settings/language_configuration.html"><span class="std std-doc">Configuration de la langue</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/basic_settings/persistent_settings.html"><span class="std std-doc">Persistant Paramètres</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/basic_settings/coordinator_software_support.html"><span class="std std-doc">Support logiciel du coordinateur</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/basic_settings/denomination_display.html"><span class="std std-doc">Affichage de la valeur nominale</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/basic_settings/hardware_io_testing.html"><span class="std std-doc">Tests d’E/S matérielles</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/basic_settings/donation_information.html"><span class="std std-doc">Informations sur les dons</span></a></p></li>
+</ul>
+</li>
+<li><p><strong>Paramètres avancés</strong></p>
+<ul>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/bitcoin_network_selection.html"><span class="std std-doc">Sélection du réseau Bitcoin</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/qr_code_density.html"><span class="std std-doc">Code QR Densité</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/xpub_export_configuration.html"><span class="std std-doc">Configuration d’exportation Xpub</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/signature_types_configuration.html"><span class="std std-doc">Configuration des types de signature</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/script_types_configuration.html"><span class="std std-doc">Configuration des types de script</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/show_xpub_details.html"><span class="std std-doc">Afficher les détails Xpub</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/bip-39_passphrase_configuration.html"><span class="std std-doc">Phrase secrète BIP-39 Configuration</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/camera_rotation.html"><span class="std std-doc">Rotation de la caméra</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/compact_seedqr.html"><span class="std std-doc">Compact SeedQR</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/bip-85_child_seeds.html"><span class="std std-doc">Enfants Seeds BIP-85</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/electrum_seeds.html"><span class="std std-doc">Enfants Seeds Electrum</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/message_signing.html"><span class="std std-doc">Signature des messages</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/privacy_warnings.html"><span class="std std-doc">Avertissements relatifs à la confidentialité</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/dire_warnings.html"><span class="std std-doc">Avertissements importants</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/qr_brightness_tips.html"><span class="std std-doc">Conseils concernant la luminosité du QR Code</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/advanced_settings/partner_logos.html"><span class="std std-doc">Logos partenaires</span></a></p></li>
+</ul>
+</li>
+<li><p><strong>Paramètres matériels</strong></p>
+<ul>
+<li><p><a class="reference internal" href="device_configuration/hardware_settings/display_type_configuration.html"><span class="std std-doc">Configuration du type d’affichage</span></a></p></li>
+<li><p><a class="reference internal" href="device_configuration/hardware_settings/color_inversion.html"><span class="std std-doc">Inversion des couleurs</span></a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="assistance-et-ressources">
+<h3>🔧 Assistance et ressources<a class="headerlink" href="#assistance-et-ressources" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="support_and_resources/troubleshooting.html"><span class="std std-doc">Dépannage</span></a></p></li>
+<li><p><a class="reference internal" href="support_and_resources/additional_resources.html"><span class="std std-doc">Ressources supplémentaires</span></a></p></li>
+<li><p><a class="reference internal" href="support_and_resources/security_considerations.html"><span class="std std-doc">Considérations de sécurité</span></a></p></li>
+</ul>
+<blockquote>
+<div><p>💡 <strong>Conseil de navigation rapide</strong> : Utilisez Ctrl+F (ou Cmd+F sur Mac) pour rechercher des rubriques spécifiques dans ce guide.</p>
+</div></blockquote>
+</section>
+</section>
+<hr class="docutils" />
+<section id="composants-materiels">
+<h2>Composants matériels<a class="headerlink" href="#composants-materiels" title="Link to this heading"></a></h2>
+<p>Un appareil SeedSigner se compose de :</p>
+<ol class="arabic simple">
+<li><p><strong>Raspberry Pi Zero</strong> - L’unité de calcul principale</p></li>
+<li><p><strong>Caméra Raspberry Pi</strong> - Pour la lecture de codes QR et la capture d’entropie</p></li>
+<li><p><strong>WaveShare LCD Hat 1,3 pouce</strong> - Interface d’affichage et de contrôle</p></li>
+</ol>
+<section id="commandes-du-waveshare-lcd-hat">
+<h3>Commandes du WaveShare LCD Hat<a class="headerlink" href="#commandes-du-waveshare-lcd-hat" title="Link to this heading"></a></h3>
+<p><a class="reference internal" href="../../_images/WaveShare_LCD_Hat2.png"><img alt="WaveShare LCD Hat" class="align-center" src="../../_images/WaveShare_LCD_Hat2.png" style="width: 350px;" /></a></p>
+<p>Le WaveShare LCD Hat offre les commandes suivantes :</p>
+<ul class="simple">
+<li><p><strong>Joystick</strong> : Navigation quadridirectionnelle (haut, bas, gauche, droite) et appui central</p></li>
+<li><p><strong>Touche 1 (A)</strong> : Bouton d’action principal</p></li>
+<li><p><strong>Touche 2 (B)</strong> : Bouton d’action secondaire</p></li>
+<li><p><strong>Touche 3 (C)</strong> : Bouton d’action tertiaire</p></li>
+</ul>
+</section>
+<section id="reference-des-fonctions-des-boutons">
+<h3>Référence des fonctions des boutons<a class="headerlink" href="#reference-des-fonctions-des-boutons" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Commande</p></th>
+<th class="head"><p>Fonction</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Joystick Haut</p></td>
+<td><p>Déplacer la sélection vers le haut</p></td>
+</tr>
+<tr class="row-odd"><td><p>Joystick Bas</p></td>
+<td><p>Déplacer la sélection vers le bas</p></td>
+</tr>
+<tr class="row-even"><td><p>Joystick Gauche</p></td>
+<td><p>Déplacer la sélection vers la gauche</p></td>
+</tr>
+<tr class="row-odd"><td><p>Joystick Droite</p></td>
+<td><p>Déplacer la sélection vers la droite</p></td>
+</tr>
+<tr class="row-even"><td><p>Appuyer sur le joystick</p></td>
+<td><p>Sélection alternative/confirmation (selon le contexte)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Touche 1 (A)</p></td>
+<td><p>Sélectionner l’option en surbrillance ou confirmer l’action</p></td>
+</tr>
+<tr class="row-even"><td><p>Touche 2 (B)</p></td>
+<td><p>Sélectionner l’option en surbrillance ou confirmer l’action</p></td>
+</tr>
+<tr class="row-odd"><td><p>Touche 3 (C)</p></td>
+<td><p>Sélectionner l’option en surbrillance ou confirmer l’action</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes de navigation importantes</strong> :</p>
+<ul class="simple">
+<li><p>Les trois touches (A, B, C) fonctionnent de manière identique pour la sélection et la confirmation.</p></li>
+<li><p>Pour revenir à un écran précédent, naviguez d’abord jusqu’à la flèche/le bouton Retour à l’aide du joystick, puis appuyez sur n’importe quelle touche pour l’activer.</p></li>
+<li><p>L’appui central du joystick peut avoir différentes fonctions selon le contexte de l’écran.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="conclusion">
+<h2>🏁 Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading"></a></h2>
+<p>SeedSigner fournit une solution open source sécurisée pour la gestion des clés Bitcoin et la signature des transactions. En suivant les procédures décrites dans ce guide, vous pouvez :</p>
+<ul class="simple">
+<li><p>✅ Générer des phrases de données véritablement aléatoires à l’aide de plusieurs sources d’entropie</p></li>
+<li><p>✅ Charger et gérer en toute sécurité les phrases de données existantes</p></li>
+<li><p>✅ Signer des transactions Bitcoin sans exposer les clés privées aux appareils en réseau</p></li>
+<li><p>✅ Exporter les clés publiques pour la configuration d’un portefeuille en lecture seule</p></li>
+<li><p>✅ Vérifier la propriété des adresses et les détails des transactions</p></li>
+<li><p>✅ Maintenir une sécurité air-gap complète pour toutes les opérations</p></li>
+</ul>
+<section id="regles-d-or">
+<h3>Règles d’or :<a class="headerlink" href="#regles-d-or" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>Ne jamais ignorer la vérification de la sauvegarde des graines</strong> - Un mot erroné peut entraîner la perte de vos bitcoins</p></li>
+<li><p><strong>Toujours vérifier les détails des transactions</strong> - Les transactions Bitcoin sont irréversibles</p></li>
+<li><p><strong>Maintenir une sécurité air-gap</strong> - Ne jamais connecter SeedSigner aux réseaux</p></li>
+<li><p><strong>Utiliser des environnements privés</strong> - Se protéger contre la surveillance et l’enregistrement</p></li>
+<li><p><strong>Stocker les sauvegardes en toute sécurité</strong> - Traiter les phrases de données comme les actifs précieux qu’elles protègent</p></li>
+</ol>
+</section>
+<section id="obtenir-de-l-aide">
+<h3>Obtenir de l’aide<a class="headerlink" href="#obtenir-de-l-aide" title="Link to this heading"></a></h3>
+<p>Si vous rencontrez des problèmes non abordés dans ce guide :</p>
+<ul class="simple">
+<li><p>Consultez le dépôt GitHub officiel de SeedSigner pour Mises à jour</p></li>
+<li><p>Consultez les forums et groupes de discussion de la communauté pour obtenir de l’aide.</p></li>
+<li><p>Consultez la section Dépannage pour trouver des solutions courantes.</p></li>
+<li><p>N’hésitez pas à contacter la communauté de développement pour les problèmes techniques complexes.</p></li>
+</ul>
+<p><strong>N’oubliez pas</strong> : la sécurité de vos Bitcoins est votre responsabilité. Prenez le temps de comprendre chaque étape, entraînez-vous avec de petites sommes et ne vous précipitez jamais sur les opérations critiques pour la sécurité.</p>
+<hr class="docutils" />
+<p><em>Ce guide est géré par la communauté SeedSigner et mis à jour régulièrement. Pour obtenir la dernière version et des ressources supplémentaires, consultez le dépôt GitHub officiel de SeedSigner.</em></p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Samar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../../">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calcul de la génération d’une phrase de départ de 12ème/24ème mots &mdash; seedsigner_userguide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../../index.html" class="icon icon-home">
+            seedsigner_userguide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Calcul de la génération d’une phrase de départ de 12ème/24ème mots</a><ul>
+<li><a class="reference internal" href="#processus-complet-avec-toutes-les-captures-d-ecran">Processus complet avec toutes les captures d’écran</a></li>
+<li><a class="reference internal" href="#methodes-dentropie-pour-le-calcul-du-mot-final">Méthodes d’entropie pour le calcul du mot final</a></li>
+<li><a class="reference internal" href="#affichage-et-completion-du-mot-final">Affichage et complétion du mot final</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">seedsigner_userguide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Calcul de la génération d’une phrase de départ de 12ème/24ème mots</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../../_sources/guides/fr/seed_management/creating_new_seeds/calc_12th24th_word_seed_generation.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="calcul-de-la-generation-d-une-phrase-de-depart-de-12eme-24eme-mots">
+<h1>Calcul de la génération d’une phrase de départ de 12ème/24ème mots<a class="headerlink" href="#calcul-de-la-generation-d-une-phrase-de-depart-de-12eme-24eme-mots" title="Link to this heading"></a></h1>
+<p>Cette méthode de création de phrase de départ vous permet de générer une phrase de départ cryptographiquement sécurisée en saisissant manuellement 11 mots (pour une phrase de départ de 12 mots) ou 23 mots (pour une phrase de départ de 24 mots), puis en calculant le mot final avec une validation de somme de contrôle appropriée. Le mot final (12ème ou 24ème) intègre une entropie supplémentaire et garantit la conformité de la phrase de départ aux normes BIP39.</p>
+<section id="processus-complet-avec-toutes-les-captures-d-ecran">
+<h2>Processus complet avec toutes les captures d’écran<a class="headerlink" href="#processus-complet-avec-toutes-les-captures-d-ecran" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Naviguer</strong> : Menu principal → <strong>Outils</strong> → <strong>Calc. 12ème/24ème mots</strong></p></li>
+</ol>
+<p><a class="reference internal" href="../../../../_images/ToolsOptionSelectView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsOptionSelectView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><a class="reference internal" href="../../../../_images/SeedGenerateCalcMethodView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/SeedGenerateCalcMethodView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Choisir la longueur</strong> : Sélectionnez <strong>12 mots</strong> ou <strong>24 mots</strong></p></li>
+</ol>
+<p><a class="reference internal" href="../../../../_images/SeedMnemonicLengthCalcView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/SeedMnemonicLengthCalcView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Saisir des mots existants</strong> : Utilisez le clavier à l’écran avec suggestions de mots intelligentes :</p>
+<ul class="simple">
+<li><p><strong>Touche A</strong> : Monter dans la liste des suggestions</p></li>
+<li><p><strong>Touche C</strong> : Descendre dans la liste des suggestions</p></li>
+<li><p><strong>Touche B</strong> : Sélectionner le mot suggéré en surbrillance</p></li>
+</ul>
+</li>
+</ol>
+<p><a class="reference internal" href="../../../../_images/WordEntry_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/WordEntry_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordEnterSeedView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordEnterSeedView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+</section>
+<section id="methodes-dentropie-pour-le-calcul-du-mot-final">
+<h2>Méthodes d’entropie pour le calcul du mot final<a class="headerlink" href="#methodes-dentropie-pour-le-calcul-du-mot-final" title="Link to this heading"></a></h2>
+<p>Le système fournit trois sources d’entropie différentes pour calculer le mot final, garantissant ainsi la sécurité cryptographique :</p>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordFinalizePromptView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordFinalizePromptView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><strong>🪙 Méthode d’entropie pile ou face</strong></p>
+<ul class="simple">
+<li><p>Lancez une pièce de monnaie exactement 7 fois.</p></li>
+<li><p>Pour chaque tirage, sélectionnez <strong>1 pour face</strong> ou <strong>0 pour pile</strong> en appuyant sur le <strong>joystick</strong>.</p></li>
+<li><p>Cette méthode fournit 7 bits d’entropie pour le calcul du mot final.</p></li>
+</ul>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordCoinFlipsView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordCoinFlipsView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<ul class="simple">
+<li><p>Le système affiche votre chaîne binaire et calcule la somme de contrôle.</p></li>
+</ul>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordCoinFlipResultView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordCoinFlipResultView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><strong>📝 Méthode d’entropie choix de mots</strong></p>
+<ul class="simple">
+<li><p>Choisissez un mot de la liste BIP39 comme source d’entropie.</p></li>
+<li><p>Le mot sélectionné fournit les bits d’entropie nécessaires au calcul du mot final.</p></li>
+</ul>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordEntropyView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordEntropyView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordEntropyResultView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordEntropyResultView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><strong>🔢 Méthode de finalisation avec zéros</strong></p>
+<ul class="simple">
+<li><p>Utilise une simple chaîne de zéros de 7 bits, plus la somme de contrôle calculée sur 4 bits.</p></li>
+<li><p>C’est la méthode la plus simple, mais elle reste valable. Produit un mot final valide</p></li>
+</ul>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordZerosMethodView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordZerosMethodView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+</section>
+<section id="affichage-et-completion-du-mot-final">
+<h2>Affichage et complétion du mot final<a class="headerlink" href="#affichage-et-completion-du-mot-final" title="Link to this heading"></a></h2>
+<p><strong>Créer Dernier Mot</strong></p>
+<ul class="simple">
+<li><p>Affiche le mot final calculé avec tous les détails de la dérivation</p></li>
+<li><p>Affiche la source d’entropie utilisée et le calcul de la somme de contrôle</p></li>
+</ul>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordShowFinalWordView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordShowFinalWordView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<p><strong>Écran de complétion</strong></p>
+<ul class="simple">
+<li><p>Examinez la phrase de départ complète avec le mot final calculé</p></li>
+<li><p>Votre phrase de départ est maintenant prête à être sauvegardée et utilisée.</p></li>
+</ul>
+<p><a class="reference internal" href="../../../../_images/ToolsCalcFinalWordDoneView_cn_sm_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../../_images/ToolsCalcFinalWordDoneView_cn_sm_fr.png" style="width: 250px;" /></a></p>
+<blockquote>
+<div><p><strong>📚 Note technique</strong> : Le dernier mot de toute phrase source BIP39 contient à la fois des bits d’entropie et des bits de somme de contrôle. La somme de contrôle garantit la validité mathématique de la phrase source et permet de détecter les erreurs de transcription.</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Samar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

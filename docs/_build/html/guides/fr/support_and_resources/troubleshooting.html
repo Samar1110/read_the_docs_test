@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🆘 Dépannage &mdash; seedsigner_userguide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            seedsigner_userguide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">🆘 Dépannage</a><ul>
+<li><a class="reference internal" href="#problemes-courants-et-solutions">Problèmes courants et solutions</a><ul>
+<li><a class="reference internal" href="#l-appareil-ne-demarre-pas">L’appareil ne démarre pas</a></li>
+<li><a class="reference internal" href="#problemes-de-lecture-de-codes-qr">Problèmes de lecture de codes QR</a></li>
+<li><a class="reference internal" href="#seed-incorrect-generation">Seed incorrect Génération</a></li>
+<li><a class="reference internal" href="#problemes-de-reponse-des-boutons">Problèmes de réponse des boutons</a></li>
+<li><a class="reference internal" href="#problemes-d-affichage">Problèmes d’affichage</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#messages-d-erreur">Messages d’erreur</a><ul>
+<li><a class="reference internal" href="#type-de-qr-inconnu">« Type de QR inconnu »</a></li>
+<li><a class="reference internal" href="#semence-invalide">« Semence invalide »</a></li>
+<li><a class="reference internal" href="#erreur-de-somme-de-controle">« Erreur de somme de contrôle »</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">seedsigner_userguide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">🆘 Dépannage</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/guides/fr/support_and_resources/troubleshooting.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="depannage">
+<h1>🆘 Dépannage<a class="headerlink" href="#depannage" title="Link to this heading"></a></h1>
+<section id="problemes-courants-et-solutions">
+<h2>Problèmes courants et solutions<a class="headerlink" href="#problemes-courants-et-solutions" title="Link to this heading"></a></h2>
+<section id="l-appareil-ne-demarre-pas">
+<h3>L’appareil ne démarre pas<a class="headerlink" href="#l-appareil-ne-demarre-pas" title="Link to this heading"></a></h3>
+<p><strong>Symptômes</strong> : Écran noir, aucune réponse à la mise sous tension
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Vérifiez que la source d’alimentation fournit suffisamment de courant (2 A recommandés)</p></li>
+<li><p>✅ Vérifiez que toutes les connexions matérielles sont sécurisées</p></li>
+<li><p>✅ Essayez une autre carte SD avec une image SeedSigner récente</p></li>
+<li><p>✅ Testez avec un autre câble d’alimentation</p></li>
+</ul>
+</section>
+<section id="problemes-de-lecture-de-codes-qr">
+<h3>Problèmes de lecture de codes QR<a class="headerlink" href="#problemes-de-lecture-de-codes-qr" title="Link to this heading"></a></h3>
+<p><strong>Symptômes</strong> : Codes QR non reconnus, délai de lecture expiré
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Assurez-vous que le code QR est bien éclairé</p></li>
+<li><p>✅ Maintenez l’appareil stable à une distance appropriée (15 à 30 cm)</p></li>
+<li><p>✅ Nettoyez l’objectif de la caméra avec un chiffon doux</p></li>
+<li><p>✅ Essayez de régler la densité du code QR dans les paramètres</p></li>
+<li><p>✅ Vérifiez les paramètres de rotation de la caméra</p></li>
+<li><p>✅ Testez le fonctionnement de la caméra dans le test d’E/S matérielles</p></li>
+</ul>
+</section>
+<section id="seed-incorrect-generation">
+<h3>Seed incorrect Génération<a class="headerlink" href="#seed-incorrect-generation" title="Link to this heading"></a></h3>
+<p><strong>Symptômes</strong> : La graine générée ne correspond pas aux résultats attendus
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Vérifiez que vous utilisez des sources d’entropie appropriées (bon caractère aléatoire)</p></li>
+<li><p>✅ Assurez-vous d’un éclairage approprié lors de la capture d’entropie par la caméra</p></li>
+<li><p>✅ Pour les lancers de dés, utilisez des dés physiques appropriés (et non numériques)</p></li>
+<li><p>✅ Vérifiez la transcription de la graine lors de la sauvegarde</p></li>
+<li><p>✅ Exécutez le processus de vérification de la sauvegarde</p></li>
+</ul>
+</section>
+<section id="problemes-de-reponse-des-boutons">
+<h3>Problèmes de réponse des boutons<a class="headerlink" href="#problemes-de-reponse-des-boutons" title="Link to this heading"></a></h3>
+<p><strong>Symptômes</strong> : Les boutons ne répondent pas, saisie incohérente
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Exécutez un test d’E/S matérielle pour isoler le problème</p></li>
+<li><p>✅ Nettoyez autour des boutons pour éliminer les débris</p></li>
+<li><p>✅ Vérifiez que le casque WaveShare n’est pas endommagé</p></li>
+<li><p>✅ Essayez différentes combinaisons de boutons (A, B, C fonctionnent tous de manière identique)</p></li>
+</ul>
+</section>
+<section id="problemes-d-affichage">
+<h3>Problèmes d’affichage<a class="headerlink" href="#problemes-d-affichage" title="Link to this heading"></a></h3>
+<p><strong>Symptômes</strong> : L’écran scintille, affiche partiellement, affiche incorrectement Couleurs
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Vérifiez les connexions du chapeau WaveShare</p></li>
+<li><p>✅ Exécutez le test d’affichage des E/S matérielles</p></li>
+<li><p>✅ Essayez une autre source d’alimentation</p></li>
+<li><p>✅ Vérifiez l’intégrité de la carte SD</p></li>
+</ul>
+</section>
+</section>
+<section id="messages-d-erreur">
+<h2>Messages d’erreur<a class="headerlink" href="#messages-d-erreur" title="Link to this heading"></a></h2>
+<section id="type-de-qr-inconnu">
+<h3>« Type de QR inconnu »<a class="headerlink" href="#type-de-qr-inconnu" title="Link to this heading"></a></h3>
+<p><strong>Signification</strong> : Le format du code QR scanné n’est pas reconnu par SeedSigner
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Vérifiez que vous scannez un type de QR pris en charge (PSBT, SeedQR, etc.)</p></li>
+<li><p>✅ Vérifiez la qualité et la clarté du code QR</p></li>
+<li><p>✅ Assurez-vous que l’éclairage et le positionnement de la caméra sont corrects</p></li>
+</ul>
+</section>
+<section id="semence-invalide">
+<h3>« Semence invalide »<a class="headerlink" href="#semence-invalide" title="Link to this heading"></a></h3>
+<p><strong>Signification</strong> : La phrase de départ saisie ne passe pas la validation BIP-39
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Vérifiez chaque mot de votre phrase de départ</p></li>
+<li><p>✅ Vérifiez que l’ordre des mots est correct</p></li>
+<li><p>✅ Assurez-vous que tous les mots proviennent de la liste de mots BIP-39</p></li>
+<li><p>✅ Vérifiez les fautes de frappe dans la saisie manuelle</p></li>
+</ul>
+</section>
+<section id="erreur-de-somme-de-controle">
+<h3>« Erreur de somme de contrôle »<a class="headerlink" href="#erreur-de-somme-de-controle" title="Link to this heading"></a></h3>
+<p><strong>Signification</strong> : Le dernier mot ne correspond pas à la somme de contrôle requise
+<strong>Solutions</strong> :</p>
+<ul class="simple">
+<li><p>✅ Utilisez l’outil « Calculer le 12e/24e mot » pour trouver le dernier mot correct</p></li>
+<li><p>✅ Vérifiez que tous les mots précédents sont corrects</p></li>
+<li><p>✅ Vérifiez les erreurs de transcription</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Samar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

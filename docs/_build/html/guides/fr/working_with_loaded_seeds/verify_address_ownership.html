@@ -1,0 +1,206 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🛡️ Vérification et sécurité &mdash; seedsigner_userguide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            seedsigner_userguide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">🛡️ Vérification et sécurité</a><ul>
+<li><a class="reference internal" href="#verifier-la-propriete-de-l-adresse">Vérifier la propriété de l’adresse</a><ul>
+<li><a class="reference internal" href="#emplacement-recommande">Emplacement recommandé</a></li>
+<li><a class="reference internal" href="#instructions-etape-par-etape">Instructions étape par étape</a></li>
+<li><a class="reference internal" href="#cas-d-utilisation-de-securite">🚨 Cas d’utilisation de sécurité</a></li>
+<li><a class="reference internal" href="#resume-et-conseils">Résumé et conseils</a></li>
+<li><a class="reference internal" href="#remarques-pour-les-nouveaux-utilisateurs">Remarques pour les nouveaux utilisateurs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">seedsigner_userguide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">🛡️ Vérification et sécurité</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/guides/fr/working_with_loaded_seeds/verify_address_ownership.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="verification-et-securite">
+<h1>🛡️ Vérification et sécurité<a class="headerlink" href="#verification-et-securite" title="Link to this heading"></a></h1>
+<section id="verifier-la-propriete-de-l-adresse">
+<h2>Vérifier la propriété de l’adresse<a class="headerlink" href="#verifier-la-propriete-de-l-adresse" title="Link to this heading"></a></h2>
+<p>Confirmez qu’une adresse de réception Bitcoin spécifique a bien été générée par la graine chargée sur votre appareil SeedSigner. Cette vérification permet de garantir que les adresses générées par votre portefeuille logiciel (par exemple, Sparrow Wallet) correspondent à celles dérivées de votre graine isolée sur SeedSigner, vous protégeant ainsi contre les erreurs de configuration, les logiciels malveillants ou les falsifications.</p>
+<p><strong>Important :</strong> Cette fonctionnalité vérifie uniquement les adresses Bitcoin dérivées de votre propre graine. Elle <strong>ne peut pas</strong> être utilisée pour vérifier les adresses appartenant à des plateformes d’échange, des commerçants ou d’autres tiers.</p>
+<section id="emplacement-recommande">
+<h3>Emplacement recommandé<a class="headerlink" href="#emplacement-recommande" title="Link to this heading"></a></h3>
+<p>Cette section est idéalement située immédiatement après l’étape « Exporter la clé publique », car la vérification des adresses de réception générées est l’étape suivante naturelle pour confirmer le fonctionnement sécurisé du portefeuille logiciel lié.</p>
+</section>
+<section id="instructions-etape-par-etape">
+<h3>Instructions étape par étape<a class="headerlink" href="#instructions-etape-par-etape" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p><strong>Accéder à la vérification de l’adresse</strong></p></li>
+</ol>
+<p>Depuis l’écran d’accueil de SeedSigner :
+→ Sélectionnez <strong>Outils</strong>
+→ Sélectionnez <strong>Vérifier l’adresse</strong></p>
+<p><a class="reference internal" href="../../../_images/HomeScreenToolsSelectView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/HomeScreenToolsSelectView_tv_fr.png" style="width: 250px;" /></a></p>
+<p><a class="reference internal" href="../../../_images/VerifyAddressSelectView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/VerifyAddressSelectView_tv_fr.png" style="width: 250px;" /></a></p>
+<p><a class="reference internal" href="../../../_images/AddressVerificationsCameraView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/AddressVerificationsCameraView_tv_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Saisir l’adresse à vérifier</strong></p>
+<ul class="simple">
+<li><p><strong>Flux de travail principal :</strong> Scanner une adresse de réception Bitcoin depuis votre logiciel Portefeuille (tel que Sparrow ou BlueWallet) que vous souhaitez vérifier.</p></li>
+<li><p><strong>Facultatif (avancé)</strong> : Vous pouvez également choisir de charger une graine enregistrée, de scanner une nouvelle graine ou de saisir manuellement votre phrase de 12/24 mots pour vérifier les adresses qu’elle contient. Cependant, ces méthodes sont moins courantes et destinées aux utilisateurs expérimentés.</p></li>
+</ul>
+</li>
+</ol>
+<p><a class="reference internal" href="../../../_images/AddressVerificationsMainMenuScreen_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/AddressVerificationsMainMenuScreen_tv_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Processus de vérification</strong></p></li>
+</ol>
+<ul class="simple">
+<li><p>SeedSigner recherchera les adresses dérivées de votre graine chargée pour trouver une correspondance.</p></li>
+<li><p>Cette opération peut prendre un certain temps en fonction de la plage d’index d’adresses et de la complexité de la graine.</p></li>
+</ul>
+<ol class="arabic simple" start="4">
+<li><p><strong>Examiner les résultats</strong></p>
+<ul class="simple">
+<li><p>🔍 <strong>Recherche d’adresse</strong> : Dérivation d’une adresse à partir d’une graine chargée — peut prendre du temps.</p></li>
+<li><p>✅ <strong>Adresse vérifiée</strong> : L’adresse appartient à votre graine chargée.</p></li>
+</ul>
+</li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedAddressVerificationView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedAddressVerificationView_tv_fr.png" style="width: 250px;" /></a></p>
+<p><a class="reference internal" href="../../../_images/SeedAddressVerificationSuccessView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedAddressVerificationSuccessView_tv_fr.png" style="width: 250px;" /></a></p>
+</section>
+<hr class="docutils" />
+<section id="cas-d-utilisation-de-securite">
+<h3>🚨 Cas d’utilisation de sécurité<a class="headerlink" href="#cas-d-utilisation-de-securite" title="Link to this heading"></a></h3>
+<p>Utilisez cette fonctionnalité pour <strong>confirmer qu’une adresse de réception générée par votre portefeuille logiciel correspond bien à celle générée à partir de votre seed hors ligne conservée dans SeedSigner</strong>. Cette vérification vous protège contre :</p>
+<ul class="simple">
+<li><p>Les erreurs de configuration du portefeuille logiciel ;</p></li>
+<li><p>Les logiciels malveillants ou les manipulations susceptibles de remplacer votre adresse de réception par celle d’un attaquant ;</p></li>
+<li><p>Les erreurs commises avant d’envoyer ou de recevoir des Bitcoins.</p></li>
+</ul>
+<p><strong>N’envoyez jamais de Bitcoins à une adresse non vérifiée.</strong></p>
+</section>
+<hr class="docutils" />
+<section id="resume-et-conseils">
+<h3>Résumé et conseils<a class="headerlink" href="#resume-et-conseils" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Point clé</p></th>
+<th class="head"><p>Explication</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Ce que SeedSigner vérifie</p></td>
+<td><p>Si une adresse Bitcoin est dérivée de votre seed chargée, quel que soit l’endroit où elle a été créée.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ce que SeedSigner ne vérifie PAS</p></td>
+<td><p>La propriété ou l’authenticité des adresses provenant de plateformes d’échange, de commerçants ou de tiers.</p></td>
+</tr>
+<tr class="row-even"><td><p>Cas d’utilisation typique</p></td>
+<td><p>Vérifier qu’une adresse de réception affichée dans votre portefeuille logiciel (par exemple, Sparrow) correspond à celle dérivée sur SeedSigner à l’aide de votre seed.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pourquoi c’est important</p></td>
+<td><p>Pour vous assurer de contrôler vos clés privées et de ne pas envoyer/recevoir de fonds à des adresses compromises ou incorrectes.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="remarques-pour-les-nouveaux-utilisateurs">
+<h3>Remarques pour les nouveaux utilisateurs<a class="headerlink" href="#remarques-pour-les-nouveaux-utilisateurs" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Cette fonctionnalité est conçue pour <strong>faire correspondre</strong> les adresses dérivées de votre seed, et non pour « vérifier » les adresses appartenant à d’autres.</p></li>
+<li><p>Le chargement ou la saisie d’une seed entière est possible, mais complexe et généralement inutile si votre seed est déjà chargée sur SeedSigner.</p></li>
+<li><p>Vérifiez toujours vos adresses avant de recevoir des fonds afin de garantir une sécurité totale.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Samar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

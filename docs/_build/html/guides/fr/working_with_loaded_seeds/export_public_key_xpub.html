@@ -1,0 +1,153 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exporter la clé publique (Xpub) &mdash; seedsigner_userguide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            seedsigner_userguide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Exporter la clé publique (Xpub)</a><ul>
+<li><a class="reference internal" href="#procedure-complete-etape-par-etape-avec-toutes-les-captures-d-ecran">Procédure complète étape par étape avec toutes les captures d’écran</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">seedsigner_userguide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Exporter la clé publique (Xpub)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/guides/fr/working_with_loaded_seeds/export_public_key_xpub.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="exporter-la-cle-publique-xpub">
+<h1>Exporter la clé publique (Xpub)<a class="headerlink" href="#exporter-la-cle-publique-xpub" title="Link to this heading"></a></h1>
+<p>Créez des portefeuilles en lecture seule dans votre logiciel Bitcoin préféré en exportant votre clé publique. Cela vous permet de surveiller vos soldes et de préparer vos transactions sans exposer vos clés privées.</p>
+<section id="procedure-complete-etape-par-etape-avec-toutes-les-captures-d-ecran">
+<h2>Procédure complète étape par étape avec toutes les captures d’écran<a class="headerlink" href="#procedure-complete-etape-par-etape-avec-toutes-les-captures-d-ecran" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Accéder à l’exportation</strong> : Depuis l’écran principal du seed, sélectionnez <strong>« Exporter la Xpub »</strong></p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedMenuExportXPubSelectView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedMenuExportXPubSelectView_wl_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Choisir le type de signature</strong> :</p>
+<ul class="simple">
+<li><p><strong>« Single Sig »</strong> - Pour les portefeuilles personnels standard</p></li>
+<li><p><strong>« Multisig »</strong> - Pour les portefeuilles multi-signatures nécessitant plusieurs appareils</p></li>
+</ul>
+</li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedExportXpubSigTypeView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedExportXpubSigTypeView_wl_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Sélectionner le type de script</strong> :</p>
+<ul class="simple">
+<li><p><strong>Segwit Natif</strong> (bech32) - Recommandé pour les versions les plus récentes Frais</p></li>
+<li><p><strong>Segwit Nested</strong> (P2SH) - Pour la compatibilité avec les anciens systèmes</p></li>
+<li><p><strong>Taproot</strong> - Pour des fonctionnalités avancées de confidentialité et de contrats intelligents</p></li>
+</ul>
+</li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedExportXpubScriptTypeView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedExportXpubScriptTypeView_wl_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="4">
+<li><p><strong>Choisir le logiciel de portefeuille</strong> : Sélectionnez votre portefeuille préféré parmi les options prises en charge.</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedExportXpubCoordinatorView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedExportXpubCoordinatorView_wl_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="5">
+<li><p><strong>Accepter l’avertissement de confidentialité</strong> : Cliquez sur <strong>« Je comprends »</strong> après avoir lu les implications de confidentialité de Xpub.</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedExportXpubWarningView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedExportXpubWarningView_wl_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="6">
+<li><p><strong>Générer un code QR</strong> : Sélectionnez <strong>« Exporter la Xpub »</strong> pour afficher le code QR partageable.</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedExportXpubDetailsView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedExportXpubDetailsView_wl_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="7">
+<li><p><strong>Importer dans le portefeuille</strong> : Scannez le code QR avec le logiciel de portefeuille de votre choix.</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedExportXpubQRView_wl_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedExportXpubQRView_wl_fr.png" style="width: 250px;" /></a></p>
+<blockquote>
+<div><p><strong>🔒 Avertissement de confidentialité</strong> : Votre xpub (clé publique étendue) révèle toutes vos adresses Bitcoin et l’historique de vos transactions. Ne la partagez qu’avec un logiciel de portefeuille de confiance et ne la publiez jamais en ligne.</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Samar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

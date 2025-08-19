@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✍️ Signature de transaction Bitcoin (PSBT) &mdash; seedsigner_userguide  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            seedsigner_userguide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">✍️ Signature de transaction Bitcoin (PSBT)</a><ul>
+<li><a class="reference internal" href="#procedure-complete-etape-par-etape-avec-captures-d-ecran">Procédure complète étape par étape avec captures d’écran</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">seedsigner_userguide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">✍️ Signature de transaction Bitcoin (PSBT)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/guides/fr/psbt_signing_and_seed_ops/sign_bitcoin_transaction_psbt.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="signature-de-transaction-bitcoin-psbt">
+<h1>✍️ Signature de transaction Bitcoin (PSBT)<a class="headerlink" href="#signature-de-transaction-bitcoin-psbt" title="Link to this heading"></a></h1>
+<p>Approuvez et signez en toute sécurité les transactions Bitcoin créées par votre logiciel de portefeuille. PSBT (Partially Signed Bitcoin Transaction) est le format standard pour les transactions non signées.</p>
+<section id="procedure-complete-etape-par-etape-avec-captures-d-ecran">
+<h2>Procédure complète étape par étape avec captures d’écran<a class="headerlink" href="#procedure-complete-etape-par-etape-avec-captures-d-ecran" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Signature d’accès</strong> : Depuis l’écran principal de votre seed, sélectionnez <strong>« Scanner la PSBT »</strong></p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedMainMenuPSBTSelectView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedMainMenuPSBTSelectView_tv_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Scanner le QR de la transaction</strong> : Dirigez l’appareil photo vers le QR code de transaction généré par votre logiciel de portefeuille.</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/SeedPSBTCameraView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/SeedPSBTCameraView_tv_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Vérifier les détails de la transaction</strong> : Vérifiez attentivement toutes les informations affichées.</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/PSBTOverviewView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/PSBTOverviewView_tv_fr.png" style="width: 250px;" /></a></p>
+<p><strong>Éléments essentiels à vérifier</strong> :</p>
+<ul class="simple">
+<li><p>✅ <strong>Adresse du destinataire</strong> - Confirmez qu’elle correspond à votre destination</p></li>
+<li><p>✅ <strong>Montant envoyé</strong> - Vérifiez le montant exact en Bitcoins</p></li>
+<li><p>✅ <strong>Frais de transaction</strong> - Vérifiez que les frais sont raisonnables</p></li>
+<li><p>✅ <strong>Changement d’adresse</strong> - Assurez-vous que la monnaie est bien dans votre portefeuille</p></li>
+</ul>
+<ol class="arabic simple" start="4">
+<li><p><strong>Sélectionner la graine de signature</strong> : Choisissez la graine appropriée si plusieurs sont chargées</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/PSBTSelectSeedView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/PSBTSelectSeedView_tv_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="5">
+<li><p><strong>Autoriser la signature</strong> : Confirmez que vous souhaitez signer cette transaction</p></li>
+</ol>
+<p><a class="reference internal" href="../../../_images/PSBTFinalizeView_tv_fr.png"><img alt="Settings selection menu" class="align-center" src="../../../_images/PSBTFinalizeView_tv_fr.png" style="width: 250px;" /></a></p>
+<ol class="arabic simple" start="6">
+<li><p><strong>Transmission diffusée</strong> : Scannez le code QR signé obtenu dans votre logiciel de portefeuille.</p></li>
+<li><p><strong>Confirmer la diffusion</strong> : Votre portefeuille diffusera la transaction sur le réseau Bitcoin.</p></li>
+</ol>
+<blockquote>
+<div><p><strong>🚨 Vérification de sécurité critique</strong> : Les transactions Bitcoin sont irréversibles une fois diffusées sur le réseau. Vérifiez TOUJOURS l’adresse du destinataire et le montant avant de signer. Vérifiez que l’adresse du destinataire correspond exactement à la destination prévue.</p>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Samar.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
