@@ -35,37 +35,37 @@ Choose your preferred language to access the complete SeedSigner user guide:
 
 ### 🇫🇷 Français
 
-**[📖 Guide d'Utilisation en Français](/guides/fr/README.md)**
+**[📖 Guide d'Utilisation en Français](guides/fr/README.md)**
 *Documentation complète en français*
 
 ### 🇩🇪 Deutsch
 
-**[📖 Benutzerhandbuch auf Deutsch](/guides/de/README.md)**
+**[📖 Benutzerhandbuch auf Deutsch](guides/de/README.md)**
 *Vollständige Dokumentation auf Deutsch*
 
 ### 🇮🇹 Italiano
 
-**[📖 Guida Utente in Italiano](/guides/it/README.md)**
+**[📖 Guida Utente in Italiano](guides/it/README.md)**
 *Documentazione completa in italiano*
 
 ### 🇳🇱 Nederlands
 
-**[📖 Gebruikershandleiding in het Nederlands](/guides/nl/README.md)**
+**[📖 Gebruikershandleiding in het Nederlands](guides/nl/README.md)**
 *Volledige documentatie in het Nederlands*
 
 ### ​🇨​​🇦​ Català
 
-**[📖 Guia d'Usuari en Català](/guides/ca/README.md)**
+**[📖 Guia d'Usuari en Català](guides/ca/README.md)**
 *Documentació completa en català*
 
 ### 🇯🇵 日本語 (Beta)
 
-**[📖 日本語ユーザーガイド](/guides/ja/README.md)**
+**[📖 日本語ユーザーガイド](guides/ja/README.md)**
 *日本語での完全なドキュメント*
 
 ### 🇨🇳 简体中文 (Beta)
 
-**[📖 简体中文用户指南](/guides/zh/README.md)**
+**[📖 简体中文用户指南](guides/zh/README.md)**
 *简体中文完整文档*
 
 ---
